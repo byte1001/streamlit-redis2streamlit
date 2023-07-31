@@ -16,7 +16,7 @@ Connect to a Redis DB. Requires Redis host URL and Database username + password.
   
     
 `get(key, keytype, start, end)`  
-Get data from the database. Requires `key` and `keytype`. Valid `keytype`s are "`string`", "`list`", "`set`", "`sorted_set`", "`json`", and "`hash`".  
+Get data from the database. Requires `key` and `keytype`. `keytype` defaults to `string`.
 The `start` and `end` arguments are used for keytype `list` and `sorted_set`.  
 
 # Examples  
