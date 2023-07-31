@@ -6,9 +6,6 @@ Use this by importing `Redis2Streamlit` from `redis2streamlit`.
 from redis2streamlit import Redis2Streamlit
 ```
 
-# Installation
-`pip install git+https://github.com/byte1001/streamlit-redis2streamlit`
-
 # Functions/Methods
 
 `_connect(host, username, password, port)`  
