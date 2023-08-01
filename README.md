@@ -12,7 +12,6 @@ Get data from the database. Requires `key` and `keytype`. `keytype` defaults to 
 The `start` and `end` arguments are used for keytype `list` and `sorted_set`.  
 
 # Examples  
-### `redis2streamlit.py` in the same directory
 ```python
 from redis2streamlit import Redis2Streamlit
 import streamlit as st
