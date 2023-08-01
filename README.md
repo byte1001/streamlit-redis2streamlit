@@ -1,11 +1,6 @@
 # Streamlit Connections Hackathon - `Redis2Streamlit`
 A simple Redis database connector for Streamlit.
 
-Use this by importing `Redis2Streamlit` from `redis2streamlit`.
-```python
-from redis2streamlit import Redis2Streamlit
-```
-
 # Functions/Methods
 
 `_connect(host, username, password, port)`  
