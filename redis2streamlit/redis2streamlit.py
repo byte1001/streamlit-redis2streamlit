@@ -36,3 +36,4 @@ class Redis2Streamlit(ExperimentalBaseConnection):
       else:
         return "Value type is incorrect."
     return _get()
+
