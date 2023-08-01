@@ -3,6 +3,7 @@
 
 from redis2streamlit.redis2streamlit import Redis2Streamlit
 import streamlit as st
+import os
 
 dbhost = os.environ['DBHOST']
 dbusername = os.environ['DBUSERNAME']
