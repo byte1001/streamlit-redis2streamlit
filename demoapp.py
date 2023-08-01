@@ -13,7 +13,8 @@ ascii2binaryconnection = st.experimental_connection(name="ASCII2Binary", type=Re
 ascii2binaryconnection._connect(host=dbhost, username=dbusername, password=dbpassword, port=10875)
 a2b = ascii2binaryconnection.get("a2b-string", "json")
 a2bSymbol = ascii2binaryconnection.get("a2b-symbols", "json")
-a2b.update(a2bSymbol)
+st.write(a2b)
+st.write(a2bSymbol)
 
 def ascii2binary(inp):
   res = ""
