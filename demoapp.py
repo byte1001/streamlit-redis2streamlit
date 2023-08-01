@@ -14,9 +14,9 @@ dbconnection._connect(host=dbhost, username=dbusername, password=dbpassword, por
 a2b = dbconnection.get("a2b", "json")
 
 
-def ascii2binary(inp):
+def ascii2binary(asciiinp):
   result = ""
-  for i in inp:
+  for i in asciiinp:
     try:
         if i == " ": i = "space" # these 2 lines because my Redis DB wont allow spaces and single quotes
         if i == "'": i = "sq" # these 2 lines because my Redis DB wont allow spaces and single quotes
