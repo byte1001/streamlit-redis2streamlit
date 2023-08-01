@@ -19,7 +19,7 @@ def ascii2binary(inp):
   for i in inp:
     try:
         if i == " ": i = "space" # these 2 lines because my Redis DB wont allow spaces and double quotes
-        if i == '"': i = "sq" # these 2 lines because my Redis DB wont allow spaces and double quotes
+        if i == '"': i = "sqheehehh" # these 2 lines because my Redis DB wont allow spaces and double quotes
         result += a2b[str(i)] + " "
     except Exception as e:
         return f"Cannot process input; invalid character: {str(e)[1]}"
