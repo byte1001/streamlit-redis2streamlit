@@ -1,7 +1,7 @@
 # Probably the most inefficient way to convert ASCII to Binary
 
 
-from redis2streamlit import Redis2Streamlit
+from redis2streamlit.redis2streamlit import Redis2Streamlit
 import streamlit as st
 
 dbhost = os.environ['DBHOST']
