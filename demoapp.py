@@ -14,9 +14,9 @@ dbconnection._connect(host=dbhost, username=dbusername, password=dbpassword, por
 a2b = dbconnection.get("a2b", "json")
 
 
-def ascii2binary(asciiinp):
+def ascii2binary(inp):
   result = ""
-  for i in asciiinp:
+  for i in inp:
     try:
         if i == " ": i = "space" # these 2 lines because my Redis DB wont allow spaces and single quotes
         if i == "'": i = "sq" # these 2 lines because my Redis DB wont allow spaces and single quotes
@@ -32,4 +32,4 @@ st.write('Probably the most inefficient way to make a Text to Binary Converter')
 st.write('')
 text = st.text_input('Text here', placeholder="Enter text...")
 st.write("Binary:")
-binary = st.code(ascii2binary(ascii))
+binary = st.code(ascii2binary(text))
