@@ -1,5 +1,5 @@
 # Streamlit Connections Hackathon - `Redis2Streamlit`
-A simple Redis database connector for Streamlit.
+A simple Redis database connector for Streamlit (`st.experimental_connection`).
 
 # Functions/Methods
 
