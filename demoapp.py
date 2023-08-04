@@ -28,7 +28,7 @@ def ascii2binary(inp):
 
 st.title('Streamlit Connections Hackathon')
 st.header('Text2Binary - Redis2Streamlit')
-st.write('Probably the most inefficient way to make a Text to Binary Converter')
+st.write(':D')
 st.write('')
 text = st.text_input('Text here', placeholder="Enter text...")
 st.write("Binary:")
